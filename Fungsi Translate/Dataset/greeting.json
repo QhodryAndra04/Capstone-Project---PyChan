@@ -1,0 +1,28 @@
+{"intents": [
+    {
+        "tag": "greeting",
+        "patterns": ["Halo Pychan", "Halo", "Pychan", "Hai"],
+        "responses": ["Hai, ada yang bisa saya bantu?"],
+        "context_set": ""
+    },
+    {
+        "tag": "goodbye",
+        "patterns": ["Selamat tinggal", "Goodbye", "selamat jalan"],
+        "responses": ["Sampai jumpa lagi"],
+        "context_set": ""
+    },
+    {
+        "tag": "thanks",
+        "patterns": ["Terima kasih", "Terimakasih", "Bagus", "Keren", "Hebat", "Mantap"],
+        "responses": ["Senang bisa membantu"],
+        "context_set": ""
+    },
+    {
+        "tag": "pychan",
+        "patterns": [ "Apa yang bisa kamu bantu", "Jelaskan apa yang bisa kamu lakukan", "Layanan apa yang kamu tawarkan", "Bisakah kamu membantu dengan kesehatan?"],
+        "responses": ["Saya adalah chatbot kesehatan yang memberikan informasi dan saran kesehatan."],
+        "context_set": ""
+    }
+    
+    ]
+}
