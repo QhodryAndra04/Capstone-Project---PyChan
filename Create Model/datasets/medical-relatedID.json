@@ -1,0 +1,745 @@
+{
+    "intents": [
+        {
+            "tag": "Potongan",
+            "patterns": [
+                "Apa yang harus dilakukan jika terpotong?",
+                "Bagaimana cara menyembuhkan luka?",
+                "Obat apa yang harus dipakai untuk luka?",
+                "apa yang harus diaplikasikan pada luka?",
+                "Potongan"
+            ],
+            "responses": [
+                "Cuci luka dengan benar untuk mencegah infeksi dan menghentikan pendarahan dengan memberikan tekanan selama 1-2 menit hingga pendarahan berhenti. Oleskan Petroleum Jelly untuk memastikan luka tetap lembap agar cepat sembuh. Terakhir, tutup luka dengan perban steril. Pereda nyeri seperti asetaminofen dapat diberikan."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Lecet",
+            "patterns": [
+                "Bagaimana cara mengobati lecet?",
+                "Apakah abrasi menimbulkan bekas luka?",
+                "Lecet",
+                "apa yang harus dilakukan jika terjadi lecet?",
+                "Obat apa yang harus digunakan untuk luka lecet?",
+                "Bagaimana cara menyembuhkan lecet?"
+            ],
+            "responses": [
+                "Mulailah dengan tangan yang sudah dicuci. Bersihkan area tersebut dengan lembut menggunakan air dingin hingga hangat dan sabun lembut. Singkirkan kotoran atau partikel lain dari luka menggunakan pinset yang disterilkan. Untuk goresan ringan yang tidak berdarah, biarkan luka tetap terbuka. Jika luka berdarah, gunakan kain bersih atau perban, dan berikan tekanan lembut pada area tersebut untuk menghentikan pendarahan. Tutupi luka yang berdarah dengan lapisan tipis salep antibiotik topikal, seperti Bacitracin, atau salep penghalang kelembapan steril, seperti Aquaphor. Tutupi dengan perban atau kain kasa bersih. Bersihkan luka dengan lembut dan ganti salep dan perban sekali sehari. Perhatikan area tersebut untuk tanda-tanda infeksi, seperti nyeri atau kemerahan dan bengkak. Temui dokter Anda jika Anda mencurigai adanya infeksi."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "sengatan",
+            "patterns": [
+                "Bagaimana Anda mengobati Sting?",
+                "Sengatan",
+                "Apa yang harus dilakukan jika Anda tersengat?",
+                "Obat apa yang digunakan jika tersengat?"
+            ],
+            "responses": [
+                "Segera singkirkan semua sengat. Beberapa ahli menyarankan untuk mengikis sengat dengan kartu kredit. Mengompres bagian yang tersengat dengan es dapat sedikit meredakan nyeri. Kompres bagian yang tersengat dengan es selama 20 menit setiap jam sesuai kebutuhan. Bungkus es dengan handuk atau letakkan kain di antara es dan kulit agar kulit tidak membeku. Mengonsumsi antihistamin seperti difenhidramin (Benadryl) atau antihistamin nonsedatif seperti loratadin (Claritin) akan membantu mengatasi rasa gatal dan bengkak. Minum asetaminofen (Tylenol) atau ibuprofen (Motrin) untuk meredakan nyeri sesuai kebutuhan. Cuci bagian yang tersengat dengan sabun dan air. Mengoleskan krim hidrokortison pada bagian yang tersengat dapat membantu meredakan kemerahan, gatal, dan bengkak."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Terpecah",
+            "patterns": [
+                "Cara menghilangkan serpihan",
+                "Bagaimana cara menyembuhkan serpihan?",
+                "Apa yang harus saya lakukan bila saya terkena serpihan?",
+                "Bagaimana cara Anda membawa serpihan ke permukaan?"
+            ],
+            "responses": [
+                "1. RENDAM DALAM GARAM EPSOM. Larutkan secangkir garam ke dalam bak mandi air hangat dan rendam bagian tubuh mana pun yang terkena serpihan. Jika tidak berhasil, Anda juga dapat menaruh sebagian garam ke bantalan perban dan membiarkannya tertutup selama sehari; ini pada akhirnya akan membantu mengeluarkan serpihan ke permukaan. 2. CUKA ATAU MINYAK. Cara mudah lainnya untuk mengeluarkan serpihan yang membandel adalah dengan merendam area yang terkena dalam minyak (zaitun atau jagung) atau cuka putih. Tuangkan sedikit ke dalam mangkuk dan rendam area tersebut selama sekitar 20 hingga 30 menit,"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Terkilir",
+            "patterns": [
+                "Bagaimana cara mengobati terkilir?",
+                "apa yang harus saya lakukan jika saya terkilir?",
+                "Krim apa yang harus digunakan jika saya terkilir?",
+                "Obat apa yang harus digunakan jika saya terkilir?"
+            ],
+            "responses": [
+                "Segera gunakan kompres es atau mandi air es selama 15 hingga 20 menit dan ulangi setiap dua hingga tiga jam saat Anda terjaga. Untuk membantu menghentikan pembengkakan, kompres pergelangan kaki dengan perban elastis hingga pembengkakan berhenti. Dalam kebanyakan kasus, pereda nyeri — seperti ibuprofen (Advil, Motrin IB, lainnya) atau naproxen sodium (Aleve, lainnya) atau asetaminofen (Tylenol, lainnya) sudah cukup untuk mengatasi nyeri akibat pergelangan kaki terkilir."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Ketegangan",
+            "patterns": [
+                "Bagaimana cara mengobati ketegangan?",
+                "apa yang harus saya lakukan jika saya terserang strain?",
+                "Krim apa yang harus digunakan jika saya terserang tegang otot?",
+                "Obat apa yang harus saya gunakan jika saya terserang strain?",
+                "Bagaimana Anda mendiagnosis suatu strain?",
+                "Apakah panas atau es lebih baik untuk otot yang tertarik?"
+            ],
+            "responses": [
+                "Istirahat, Es, Kompresi, dan Elevasi dapat digunakan untuk menyembuhkan cedera. Hindari penggunaan otot selama beberapa hari, terutama jika gerakan menyebabkan peningkatan rasa sakit dan juga Tempelkan es segera setelah cedera pada otot. Ini akan meminimalkan pembengkakan. Jangan menempelkan es langsung ke kulit Anda. Gunakan kompres es atau bungkus es dengan handuk. Untuk mengurangi pembengkakan, balut area yang terkena dengan perban elastis hingga pembengkakan mereda."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Demam",
+            "patterns": [
+                "Bagaimana cara mengobati demam ringan?",
+                "apa yang harus saya lakukan jika saya demam ringan?",
+                "Obat apa yang harus diminum jika saya demam ringan?",
+                "demam"
+            ],
+            "responses": [
+                "Untuk mengobati demam di rumah: 1) Minum banyak cairan agar tetap terhidrasi. 2) Kenakan pakaian yang tipis. 3) Gunakan selimut tipis jika Anda merasa kedinginan, hingga rasa dinginnya hilang. 4) Minum asetaminofen (Tylenol, dan lain-lain) atau ibuprofen (Advil, Motrin IB, dan lain-lain). 5) Cari pertolongan medis jika demam berlangsung lebih dari lima hari berturut-turut."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Hidung tersumbat",
+            "patterns": [
+                "Bagaimana cara mengobati hidung tersumbat?",
+                "apa yang harus saya lakukan jika hidung saya tersumbat?",
+                "Obat apa yang harus diminum jika saya hidung tersumbat?",
+                "apa yang harus saya lakukan jika hidung saya tersumbat?",
+                "Bagaimana cara mengobati hidung tersumbat?",
+                "Berapa lama hidung tersumbat berlangsung?"
+            ],
+            "responses": [
+                "Saat hidung tersumbat, fokuslah untuk menjaga kelembapan saluran hidung dan sinus. Untuk menjaga kelembapan saluran hidung, Anda dapat: 1) Menggunakan pelembap udara atau alat penguap. 2) Minum banyak cairan. Ini akan mengencerkan lendir, yang dapat membantu mencegah penyumbatan sinus. 3) Letakkan handuk basah dan hangat di wajah. Ini dapat meredakan ketidaknyamanan dan membuka saluran hidung."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Batuk",
+            "patterns": [
+                "Bagaimana cara menyembuhkan batuk?",
+                "Bagaimana cara mengobati batuk?",
+                "apa yang harus saya lakukan jika saya batuk?",
+                "Obat apa yang harus diminum jika saya batuk?",
+                "Bagaimana cara menghilangkan batuk?"
+            ],
+            "responses": [
+                "1) Madu: Gunakan madu untuk mengobati batuk, campurkan 2 sendok teh (sdt) dengan air hangat atau teh herbal. Minum campuran ini sekali atau dua kali sehari. Jangan berikan madu kepada anak di bawah usia 1 tahun. 2) Jahe: Seduh teh jahe yang menenangkan dengan menambahkan 20–40 gram (g) irisan jahe segar ke dalam secangkir air panas. Biarkan terendam selama beberapa menit sebelum diminum. Tambahkan madu atau air jeruk lemon untuk meningkatkan rasa dan meredakan batuk lebih lanjut. 3) Cairan: Tetap terhidrasi sangat penting bagi mereka yang batuk atau pilek. Penelitian menunjukkan bahwa minum cairan pada suhu ruangan dapat meredakan batuk, pilek, dan bersin."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Sakit tenggorokan",
+            "patterns": [
+                "Bagaimana cara mengobati sakit tenggorokan?",
+                "apa yang harus saya lakukan jika saya sakit tenggorokan?",
+                "Obat apa yang harus saya minum jika saya sakit tenggorokan?",
+                "Bagaimana cara menyembuhkan sakit tenggorokan?"
+            ],
+            "responses": [
+                "1) Pastikan Anda cukup istirahat dan minum banyak cairan. 2) Hirup uapnya, siram air panas di wastafel. Tutupi tubuh Anda dengan handuk untuk menahan uapnya, dan minta orang tersebut mencondongkan tubuh di wastafel dengan air yang mengalir. Minta dia untuk bernapas dalam-dalam melalui mulut dan hidungnya selama 5 hingga 10 menit. Ulangi beberapa kali sehari. 3) Minta dia menyeruput kaldu ayam atau teh hangat dengan madu. Jangan berikan madu kepada anak di bawah usia 12 bulan."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Masalah gastrointestinal",
+            "patterns": [
+                "Bagaimana Anda mengatasi masalah gas?",
+                "Apa yang harus saya lakukan jika saya memiliki masalah gastrointestinal?",
+                "Obat apa yang harus saya minum jika saya mengalami masalah gas?",
+                "Bagaimana cara mengatasi masalah Gas?"
+            ],
+            "responses": [
+                "1) Mengisi kembali cairan tubuh. 2) Jangan mengonsumsi obat antidiare, pencahar, atau obat pereda nyeri, kecuali atas anjuran dokter. 3) Mengonsumsi antasida dapat membantu, sesuai anjuran dokter. 4) Jika sering mengalami nyeri ulu hati, segera cari pertolongan medis. 5) Mengonsumsi makanan yang tidak pedas secara teratur dapat meredakan nyeri maag. 6) Segera cari pertolongan medis, jika kondisi terus berlanjut atau memburuk."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Masalah kulit",
+            "patterns": [
+                "Bagaimana Anda mengatasi masalah kulit?",
+                "Apa yang harus saya lakukan jika saya terkena alergi kulit?",
+                "Obat apa yang harus saya minum jika saya mengalami alergi kulit?",
+                "Bagaimana cara menyembuhkan alergi kulit?"
+            ],
+            "responses": [
+                "1) Krim hidrokortison. 2) Salep seperti losion kalamin. 3) Antihistamin. 4) Kompres dingin. 5) Mandi oatmeal. 6) Bicarakan dengan dokter Anda tentang apa yang terbaik untuk ruam spesifik Anda."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Sakit Perut",
+            "patterns": [
+                "Bagaimana Anda mengobati sakit perut?",
+                "apa yang harus saya lakukan jika saya merasakan sakit perut?",
+                "Obat apa yang harus diminum jika saya merasakan sakit perut?",
+                "Bagaimana cara menyembuhkan sakit perut?"
+            ],
+            "responses": [
+                "1) Berikan cairan bening untuk diminum, seperti air, kaldu, atau jus buah yang diencerkan dengan air. 2) Sajikan makanan hambar, seperti biskuit asin, roti tawar, roti panggang kering, nasi, agar-agar, atau saus apel. 3) Hindari makanan pedas atau berminyak dan minuman berkafein atau berkarbonasi hingga 48 jam setelah semua gejala hilang."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Memar",
+            "patterns": [
+                "Bagaimana cara mengobati Memar?",
+                "apa yang harus saya lakukan jika saya mendapat Memar?",
+                "Obat apa yang harus saya minum jika saya mengalami memar?",
+                "Bagaimana cara menyembuhkan memar?"
+            ],
+            "responses": [
+                "1) Kompres bagian yang memar dengan kompres es yang dibungkus handuk. 2) Diamkan selama 10 hingga 20 menit. 3) Ulangi beberapa kali sehari selama satu atau dua hari sesuai kebutuhan. 4) Kompres bagian yang memar jika membengkak, menggunakan perban elastis."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Jari Kaki Patah",
+            "patterns": [
+                "Bagaimana cara mengobati jari kaki yang patah?",
+                "apa yang harus saya lakukan jika jari kaki saya patah?",
+                "Obat apa yang harus saya minum jika saya mengalami patah jari kaki?",
+                "Bagaimana cara menyembuhkan jari kaki patah?"
+            ],
+            "responses": [
+                "1) Untuk membantu mengurangi nyeri dan pembengkakan pada jari kaki yang patah, tinggikan kaki, kompres dingin pada bagian yang cedera, dan jangan menggerakkan kaki. 2) Tergantung pada tingkat keparahan patah tulang, jari kaki mungkin perlu dikembalikan ke tempatnya (direduksi), dan beberapa patah tulang jari kaki majemuk mungkin memerlukan pembedahan. 3) Sebagian besar jari kaki yang patah sembuh tanpa komplikasi dalam waktu enam minggu."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Tersedak",
+            "patterns": [
+                "Bagaimana cara mengobati tersedak?",
+                "apa yang harus saya lakukan jika saya tersedak?",
+                "Obat apa yang harus saya minum jika saya tersedak?",
+                "Bagaimana cara menyembuhkan tersedak?"
+            ],
+            "responses": [
+                "1) Dorong mereka untuk terus batuk guna mencoba membersihkan sumbatan. 2) Minta mereka untuk mencoba meludahkan benda tersebut jika ada di mulut mereka. 3) Jika batuk tidak berhasil, mulailah dengan pukulan punggung dan dorongan perut."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Luka",
+            "patterns": [
+                "Bagaimana cara merawat luka?",
+                "apa yang harus saya lakukan jika saya mendapat luka?",
+                "Obat apa yang harus saya minum jika saya terluka?",
+                "Bagaimana cara menyembuhkan luka?"
+            ],
+            "responses": [
+                "1) Bilas luka dengan air dan tekan dengan kain kasa steril, perban, atau kain bersih. 2) Jika darah merembes melalui perban, letakkan perban lain di atas perban pertama dan terus tekan. 3) Angkat bagian tubuh yang cedera untuk memperlambat pendarahan. 4) Jika pendarahan berhenti, tutup luka dengan perban baru yang bersih."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Diare",
+            "patterns": [
+                "Bagaimana cara mengobati Diare?",
+                "apa yang harus saya lakukan jika saya terkena diare?",
+                "Obat apa yang harus diminum jika saya terkena Diare?",
+                "Bagaimana cara menyembuhkan Diare?"
+            ],
+            "responses": [
+                "1) Tubuh yang terhidrasi sangat penting untuk pulih dari diare. Hal ini menyebabkan tubuh kehilangan elektrolit seperti natrium dan klorida. 2) Sangat disarankan untuk menghindari produk susu, karena dapat memperburuk diare pada sebagian orang. 3) Namun, jika diare berlangsung lebih dari 2 hari, carilah saran medis untuk menghindari komplikasi."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Gigitan embun beku",
+            "patterns": [
+                "Bagaimana cara mengobati gigitan Frost?",
+                "apa yang harus saya lakukan jika saya terkena gigitan Frost?",
+                "Obat apa yang harus saya minum jika saya terkena gigitan Frost?",
+                "Bagaimana cara menyembuhkan Frost bite?"
+            ],
+            "responses": [
+                "1) Keluar dari tempat yang dingin. Setelah berada di tempat yang hangat, lepaskan pakaian basah dan bungkus tubuh dengan selimut hangat. 2) Hangatkan kembali bagian yang terkena radang dingin dengan lembut. Rendam jari tangan, kaki, atau bagian tubuh lainnya yang terkena radang dingin dalam air hangat — 105 hingga 110 F (sekitar 40 hingga 43 C). Jika termometer tidak tersedia, uji air dengan meletakkan tangan atau siku yang tidak cedera di dalamnya — air seharusnya terasa sangat hangat, tidak panas. Rendam selama 20 hingga 30 menit atau sampai kulit kembali ke warna normal atau mati rasa. Untuk wajah atau telinga, gunakan waslap basah yang hangat."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Kelelahan Akibat Panas",
+            "patterns": [
+                "Bagaimana cara mengobati Kelelahan Akibat Panas?",
+                "apa yang harus saya lakukan jika saya merasa Lelah karena panas?",
+                "Obat apa yang harus saya minum jika saya Kelelahan?",
+                "Bagaimana cara menyembuhkan Kelelahan Akibat Panas?"
+            ],
+            "responses": [
+                "1) Pindahkan korban ke tempat yang teduh atau ber-AC, jauh dari panas. Baringkan korban dan angkat kaki sedikit. Lepaskan pakaian yang ketat atau berat. Minta korban minum air dingin atau minuman nonalkohol lainnya tanpa kafein."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Serangan Panas",
+            "patterns": [
+                "Bagaimana cara mengobati Sengatan Panas?",
+                "apa yang harus saya lakukan jika saya terkena Heat Stroke?",
+                "Obat apa yang harus saya minum jika saya terkena Stroke?",
+                "Bagaimana cara menyembuhkan Sengatan Panas?"
+            ],
+            "responses": [
+                "1) Dinginkan seluruh tubuh korban dengan spons atau semprotan air dingin, dan kipasi korban untuk membantu menurunkan suhu tubuh korban. Perhatikan tanda-tanda serangan panas yang cepat, seperti kejang, tidak sadarkan diri selama lebih dari beberapa detik, dan kesulitan bernapas sedang hingga berat."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Gigitan Serangga",
+            "patterns": [
+                "Bagaimana cara mengobati gigitan serangga?",
+                "apa yang harus saya lakukan jika digigit serangga?",
+                "Obat apa yang harus saya minum jika saya digigit serangga?",
+                "Bagaimana cara menyembuhkan gigitan serangga?"
+            ],
+            "responses": [
+                "1) Cuci bagian yang terkena dengan sabun dan air. Tempelkan kompres dingin (seperti kain flanel atau kain yang didinginkan dengan air dingin) atau kompres es pada bagian yang bengkak selama minimal 10 menit. Angkat bagian yang terkena jika memungkinkan, karena ini dapat membantu mengurangi pembengkakan."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "mimisan",
+            "patterns": [
+                "Bagaimana cara mengobati hidung berdarah?",
+                "apa yang harus dilakukan jika hidung saya berdarah?",
+                "Obat apa yang harus diminum jika saya mimisan?",
+                "Bagaimana cara menyembuhkan mimisan?"
+            ],
+            "responses": [
+                "1) Cuci bagian yang terkena dengan sabun dan air. Tempelkan kompres dingin (seperti kain flanel atau kain yang didinginkan dengan air dingin) atau kompres es pada bagian yang bengkak selama minimal 10 menit. Angkat bagian yang terkena jika memungkinkan, karena ini dapat membantu mengurangi pembengkakan."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Otot Tertarik",
+            "patterns": [
+                "Bagaimana cara mengobati otot yang tertarik?",
+                "apa yang harus saya lakukan jika otot saya tertarik?",
+                "Obat apa yang harus saya minum jika otot saya tertarik?",
+                "Bagaimana cara menyembuhkan otot yang tertarik?"
+            ],
+            "responses": [
+                "1) Kompres dengan es selama 10 hingga 15 menit setiap 1 jam pada hari pertama dan setiap 3 hingga 4 jam setelahnya. Kompres dengan es selama 3 hari pertama. Setelah 3 hari, kompres panas atau es dapat membantu jika Anda masih merasakan nyeri. Istirahatkan otot yang tertarik setidaknya selama satu hari."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Pendarahan rektal",
+            "patterns": [
+                "Bagaimana cara mengobati Pendarahan Rektal?",
+                "apa yang harus saya lakukan jika saya mengalami Pendarahan Rektal?",
+                "Obat apa yang harus diminum jika saya mengalami Pendarahan Rektal?",
+                "Bagaimana cara menyembuhkan Pendarahan Rektal?"
+            ],
+            "responses": [
+                "1) Untuk pendarahan minimal akibat wasir atau fisura rektum, dokter biasanya akan memberikan perawatan di rumah dengan banyak air, kompres es, dan mungkin salep atau supositoria yang dijual bebas untuk melancarkan buang air besar atau melunakkan tinja. Perawatan darurat mungkin termasuk infus jika terjadi dehidrasi."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Kulit terbakar akibat sinar matahari",
+            "patterns": [
+                "Bagaimana cara mengobati kulit terbakar akibat sinar matahari?",
+                "apa yang harus saya lakukan jika saya terbakar matahari?",
+                "Obat apa yang harus saya minum jika saya terkena Kulit Terbakar Sinar Matahari?",
+                "Bagaimana cara menyembuhkan kulit terbakar akibat sinar matahari?"
+            ],
+            "responses": [
+                "1) Dinginkan kulit, 2) Minum air putih untuk mencegah dehidrasi, 3) Minum obat pereda nyeri seperti ibuprofen (Advil, Motrin IB, lainnya) untuk membantu meredakan ketidaknyamanan dan pembengkakan akibat sengatan matahari."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Nyeri Testis",
+            "patterns": [
+                "Bagaimana cara mengobati nyeri testis?",
+                "apa yang harus saya lakukan jika saya merasakan nyeri testis?",
+                "Obat apa yang harus diminum jika saya merasakan nyeri testis?",
+                "Bagaimana cara menyembuhkan nyeri testis?"
+            ],
+            "responses": [
+                "1) Untuk mengatasi nyeri, minumlah obat yang dijual bebas seperti asetaminofen (Tylenol) atau ibuprofen (Advil, Motrin). Untuk mengatasi pembengkakan, kompres skrotum dengan es."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Pusing",
+            "patterns": [
+                "Bagaimana cara mengobati Vertigo?",
+                "apa yang harus saya lakukan jika saya terkena Vertigo?",
+                "Obat apa yang harus diminum jika saya terkena Vertigo?",
+                "Bagaimana cara menyembuhkan Vertigo?"
+            ],
+            "responses": [
+                "1) Meredakan atau Mencegah Pusing. Minta orang tersebut berbaring dan beristirahat, 2) Jaga Orang tersebut Tetap Aman. Bantu orang tersebut agar tidak terjatuh, 3) Hubungi Penyedia Layanan Kesehatan. Setiap tanda dan gejala vertigo yang baru harus diperiksa oleh penyedia layanan kesehatan."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Perdarahan Normal",
+            "patterns": [
+                "Bagaimana cara mengobati pendarahan?",
+                "apa yang harus saya lakukan jika saya mengalami Pendarahan?",
+                "Obat apa yang harus saya minum jika saya mengalami pendarahan?",
+                "Bagaimana cara menyembuhkan pendarahan?"
+            ],
+            "responses": [
+                "1) Tindakan pertolongan pertama untuk menangani pendarahan luar meliputi pemberian tekanan langsung pada luka, mempertahankan tekanan menggunakan bantalan dan perban, serta, mengangkat anggota tubuh yang cedera di atas ketinggian jantung jika memungkinkan."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Cedera Mata",
+            "patterns": [
+                "Bagaimana cara mengobati cedera mata?",
+                "apa yang harus saya lakukan jika saya mengalami cedera mata?",
+                "Obat apa yang harus diminum jika mata saya cedera?",
+                "Bagaimana cara menyembuhkan mata yang terluka?"
+            ],
+            "responses": [
+                "1) JANGAN menggosok mata, 2) Berkedip beberapa kali dan biarkan air mata membilas partikel, 3) Angkat kelopak mata atas di atas bulu mata kelopak mata bawah agar bulu mata mencoba menyikat partikel keluar., 4) Gunakan obat cuci mata, larutan garam atau air keran mengalir untuk membilas mata."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Luka Bakar Kimia",
+            "patterns": [
+                "Bagaimana cara mengobati luka bakar kimia?",
+                "apa yang harus saya lakukan jika saya terkena luka bakar kimia?",
+                "Obat apa yang harus saya minum jika saya terbakar akibat bahan kimia?",
+                "Bagaimana cara menyembuhkan luka bakar kimia?"
+            ],
+            "responses": [
+                "1) bilas dengan air · Bilas area tersebut setidaknya selama 20 menit. · Saat Anda menyiram area tersebut, lepaskan semua pakaian atau perhiasan yang terkena bahan kimia tersebut ,2) Jangan gunakan aliran air yang deras, jika memungkinkan., 3) Jangan mencoba menetralkan luka bakar dengan asam atau alkali. Hal ini dapat menyebabkan reaksi kimia yang memperburuk luka bakar, 4) Jangan mengoleskan salep antibiotik pada luka bakar."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Racun",
+            "patterns": [
+                "Bagaimana cara mengobati Racun?",
+                "apa yang harus saya lakukan jika saya terkena racun?",
+                "Obat apa yang harus saya minum jika saya keracunan?",
+                "Bagaimana cara menyembuhkan keracunan?"
+            ],
+            "responses": [
+                "1) Segera dapatkan udara segar. Hubungi saluran Bantuan Racun bebas pulsa (1-800-222-1222), yang menghubungkan Anda ke pusat penanganan racun setempat. 2) Lepaskan semua pakaian yang terkena racun. Bilas kulit dengan air mengalir selama 15 hingga 20 menit. Hubungi saluran Bantuan Racun bebas pulsa (1-800-222-1222), yang menghubungkan Anda ke pusat penanganan racun setempat. 3) Jika orang tersebut menelan obat yang salah atau terlalu banyak obat: Hubungi Bantuan Racun (1-800-222-1222), yang menghubungkan Anda ke pusat penanganan racun setempat. 4) Setiap keracunan berbeda."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Gigi",
+            "patterns": [
+                "Bagaimana cara merawat gigi yang patah?",
+                "apa yang harus saya lakukan jika gigi saya patah?",
+                "Obat apa yang harus saya minum jika gigi saya patah?",
+                "menyembuhkan gigi patah?"
+            ],
+            "responses": [
+                "1) jilat gigi hingga bersih jika kotor, atau bilas dengan air. pasang kembali pada posisi semula (hanya untuk gigi orang dewasa); jangan pernah mencoba memasukkan kembali gigi susu (lihat di bawah) gigit sapu tangan untuk menahan gigi pada tempatnya. pergi ke dokter gigi sebagai tindakan darurat"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "kejang",
+            "patterns": [
+                "Bagaimana cara mengobati kejang?",
+                "apa yang harus saya lakukan jika saya mengalami kejang?",
+                "Obat apa yang harus diminum jika saya kejang?",
+                "Bagaimana cara menyembuhkan kejang?"
+            ],
+            "responses": [
+                "1) Tetap tenang dan tetaplah bersama orang tersebut, 2) Jika mereka memiliki makanan atau cairan di mulut mereka, segera gulingkan mereka ke samping, 3) Letakkan sesuatu yang lembut di bawah kepala mereka dan kendurkan pakaian ketat apa pun."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Cedera Kepala",
+            "patterns": [
+                "Bagaimana cara mengobati cedera kepala?",
+                "apa yang harus saya lakukan jika saya mengalami cedera kepala?",
+                "Obat apa yang harus diminum jika saya terluka di kepala?",
+                "Bagaimana cara menyembuhkan cedera kepala?"
+            ],
+            "responses": [
+                "1) Tekan luka dengan kuat menggunakan kain kasa steril atau kain bersih. Namun, jangan menekan luka secara langsung jika Anda menduga adanya fraktur tengkorak."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Pingsan",
+            "patterns": [
+                "Bagaimana cara mengobati Pingsan?",
+                "apa yang harus saya lakukan jika saya merasa ingin pingsan?",
+                "Obat apa yang harus diminum jika saya pingsan?",
+                "Bagaimana cara menyembuhkan pingsan?"
+            ],
+            "responses": [
+                "1) Berbaring atau duduk. Untuk mengurangi kemungkinan pingsan lagi, jangan bangun terlalu cepat, 2) Letakkan kepala di antara lutut jika Anda duduk, 3) Posisikan orang tersebut dalam posisi telentang. Jika tidak ada cedera dan orang tersebut bernapas, angkat kaki orang tersebut di atas ketinggian jantung — sekitar 12 inci (30 sentimeter) — jika memungkinkan. Kendurkan ikat pinggang, kerah, atau pakaian ketat lainnya."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Sakit kepala",
+            "patterns": [
+                "Bagaimana cara mengobati sakit kepala ringan?",
+                "apa yang harus saya lakukan jika saya mengalami sakit kepala ringan?",
+                "Obat apa yang harus saya minum jika saya mengalami sakit kepala ringan?",
+                "Bagaimana cara menyembuhkan sakit kepala ringan?"
+            ],
+            "responses": [
+                "Berikan ibuprofen (Advil, Motrin), aspirin, atau asetaminofen (Tylenol) untuk meredakan nyeri. Hindari ibuprofen dan NSAID lainnya jika orang tersebut mengalami gagal jantung atau gagal ginjal. Jangan berikan aspirin kepada anak di bawah usia 18 tahun."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Dingin",
+            "patterns": [
+                "Bagaimana cara mengobati pilek?",
+                "apa yang harus saya lakukan jika saya terserang flu ringan?",
+                "Obat apa yang harus diminum jika saya pilek?",
+                "Bagaimana cara menyembuhkan pilek?"
+            ],
+            "responses": [
+                "1) Menjaga tubuh tetap terhidrasi sangat penting untuk membantu 'mengeluarkan' flu, serta melegakan hidung tersumbat dan menjaga tenggorokan tetap lembap. 2) Vitamin C sangat membantu dalam melawan infeksi, jadi saat gejala pertama flu muncul, pastikan untuk menambah asupan dengan mengonsumsi banyak buah beri, buah jeruk, pepaya, brokoli, dan paprika merah yang akan membantu melindungi tubuh. 3) Dalam melawan flu, Vitamin D sangat penting dalam membantu mengatur respons imun."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Ruam",
+            "patterns": [
+                "Bagaimana cara mengobati Ruam?",
+                "apa yang harus saya lakukan jika saya terkena Ruam?",
+                "Obat apa yang harus saya minum jika saya mengalami Ruam?",
+                "Bagaimana cara menyembuhkan Ruam?"
+            ],
+            "responses": [
+                "1) Minyak zaitun membantu penyembuhan dan mempercepat pembaruan kulit karena mengandung vitamin E dan antioksidan. Minyak ini juga menenangkan kulit dan mengurangi rasa gatal. 2) Soda kue berguna untuk mengeringkan ruam kulit serta meredakan rasa gatal dan peradangan. 3) Lidah Buaya, Berkat sifat antibakteri, antijamur, antiradang, dan emoliennya, lidah buaya sangat baik untuk mengobati sejumlah penyakit kulit termasuk ruam serta menenangkan kulit."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "gigitan ular",
+            "patterns": [
+                "Bagaimana cara mengobati gigitan ular?",
+                "apa yang harus saya lakukan jika saya digigit ular?",
+                "Obat apa yang harus saya minum jika saya digigit ular?",
+                "Bagaimana cara menyembuhkan gigitan ular?",
+                "aku digigit ular"
+            ],
+            "responses": [
+                "Sambil menunggu pertolongan medis: 1) Pindahkan korban ke tempat yang lebih jauh dari jangkauan ular. 2) Baringkan korban dengan luka di bawah jantung. 3) Jaga korban tetap tenang dan istirahat, sebisa mungkin tetap diam untuk mencegah racun menyebar. 4) Tutup luka dengan perban longgar dan steril. 5) Lepaskan semua perhiasan dari bagian yang digigit. 6) Lepaskan sepatu jika kaki atau telapak kakinya digigit."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "gigitan binatang",
+            "patterns": [
+                "Bagaimana cara mengobati gigitan hewan?",
+                "Bagaimana cara mengobati gigitan monyet?",
+                "Bagaimana cara mengobati gigitan anjing?",
+                "apa yang harus saya lakukan jika saya digigit binatang?",
+                "Obat apa yang harus saya minum jika saya digigit monyet?",
+                "Bagaimana cara menyembuhkan gigitan anjing?",
+                "aku digigit anjing"
+            ],
+            "responses": [
+                "1) Cuci luka dengan sabun dan air hangat. 2) Tekan perlahan kain bersih di atas luka untuk menghentikan aliran darah. 3) Oleskan salep antibakteri ke luka. 4) Tutup dengan perban steril. 5) Perhatikan tanda-tanda infeksi. 6) Cari bantuan jika Anda mencurigai adanya infeksi atau kemungkinan terpapar rabies, atau jika lukanya parah."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Tenggelam",
+            "patterns": [
+                "Apa yang harus dilakukan jika seseorang tenggelam?",
+                "apa yang harus dilakukan jika seseorang tenggelam?",
+                "Tindakan apa yang harus diambil jika saya melihat orang tenggelam?",
+                "Bagaimana cara menolong orang yang tenggelam?"
+            ],
+            "responses": [
+                "1) Tempelkan telinga Anda di dekat mulut dan hidung korban. Apakah Anda merasakan udara di pipi Anda? 2) Lihat apakah dada korban bergerak. Jika Korban Tidak Bernapas, Periksa Denyut Nadi. 3) Periksa denyut nadi korban selama 10 detik. Jika Tidak Ada Denyut Nadi, Mulai CPR."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Resusitasi Jantung Paru (RJP)",
+            "patterns": [
+                "Bagaimana cara memberikan CPR??",
+                "apa yang harus dilakukan dalam CPR?",
+                "Langkah apa yang harus dilakukan dalam CPR?",
+                "Bagaimana cara menolong orang yang tenggelam dengan CPR?"
+            ],
+            "responses": [
+                "1) Untuk orang dewasa atau anak-anak, letakkan tumit salah satu tangan di tengah dada pada garis puting. Anda juga dapat menekan dengan satu tangan di atas tangan lainnya. Untuk bayi, letakkan dua jari pada tulang dada. 2) Untuk orang dewasa atau anak-anak, tekan ke bawah setidaknya 2 inci. Pastikan untuk tidak menekan tulang rusuk. Untuk bayi, tekan ke bawah sekitar 1 dan 1/2 inci. Pastikan untuk tidak menekan ujung tulang dada. 3) Lakukan kompresi dada saja, dengan kecepatan 100-120 per menit atau lebih. Biarkan dada terangkat sepenuhnya di antara setiap tekanan. 4) Periksa untuk melihat apakah orang tersebut sudah mulai bernapas."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Patah",
+            "patterns": [
+                "Bagaimana cara mengobati Fraktur?",
+                "apa yang harus saya lakukan jika saya terkena patah tulang?",
+                "Obat apa yang harus saya minum jika saya mengalami patah tulang?",
+                "Bagaimana cara menyembuhkan patah tulang?"
+            ],
+            "responses": [
+                "1) Hentikan pendarahan. Tekan luka dengan perban steril, kain bersih, atau sepotong pakaian bersih. 2) Imobilisasi area yang cedera. Jangan mencoba meluruskan kembali tulang atau mendorong tulang yang mencuat ke dalam. Jika Anda telah dilatih cara membidai dan bantuan profesional tidak tersedia, gunakan bidai pada area di atas dan di bawah lokasi fraktur. Bantalan bidai dapat membantu mengurangi rasa tidak nyaman. 3) Gunakan kompres es untuk membatasi pembengkakan dan membantu meredakan nyeri. Jangan menempelkan es langsung ke kulit. Bungkus es dengan handuk, sepotong kain, atau bahan lainnya. 4) Rawat syok. Jika orang tersebut merasa pingsan atau bernapas pendek dan cepat, baringkan orang tersebut dengan kepala sedikit lebih rendah dari badan dan, jika memungkinkan, tinggikan kakinya."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Luka bakar",
+            "patterns": [
+                "Bagaimana cara mengobati luka bakar?",
+                "Perawatan luka bakar",
+                "Apa yang harus digunakan pada luka bakar?",
+                "Obat apa yang digunakan untuk luka bakar?",
+                "Bagaimana cara menyembuhkan luka bakar?",
+                "Luka bakar"
+            ],
+            "responses": [
+                "Dinginkan luka bakar dengan air dingin (bukan air es) selama minimal 10 menit. Tutup luka bakar dengan perban steril anti lengket atau kain bersih. Jangan mengoleskan mentega, minyak, atau krim langsung pada luka bakar. Obat pereda nyeri yang dijual bebas seperti ibuprofen atau asetaminofen dapat membantu meredakan nyeri. Jika luka bakar parah, segera cari pertolongan medis."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Melepuh",
+            "patterns": [
+                "Bagaimana cara mengobati lepuh?",
+                "Apa yang harus dilakukan jika terbentuk lepuh?",
+                "Obat apa yang digunakan untuk mengobati lepuh?",
+                "Perawatan lepuh",
+                "Melepuh"
+            ],
+            "responses": [
+                "Cuci bagian yang terkena dengan lembut menggunakan sabun dan air. Tutupi lepuh dengan perban atau pembalut steril. Jika lepuh pecah, oleskan salep antibiotik ke bagian yang terkena dan tutupi dengan pembalut steril. Jangan lepaskan bagian atas lepuh; biarkan sembuh secara alami. Pereda nyeri seperti asetaminofen dapat membantu meredakan rasa tidak nyaman."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Terbakar sinar matahari",
+            "patterns": [
+                "Bagaimana cara mengobati kulit terbakar matahari?",
+                "Apa yang harus dilakukan jika terbakar matahari?",
+                "Obat apa yang digunakan untuk kulit terbakar matahari?",
+                "Pengobatan Kulit Terbakar Sinar Matahari",
+                "Perawatan kulit terbakar matahari"
+            ],
+            "responses": [
+                "Dinginkan kulit dengan mandi air dingin atau kompres dingin. Oleskan gel aloe vera atau losion pelembap untuk menenangkan kulit. Minum banyak air putih agar tetap terhidrasi. Pereda nyeri yang dijual bebas seperti ibuprofen dapat membantu meredakan nyeri dan peradangan. Hindari paparan sinar matahari hingga kulit terbakar sembuh."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Radang dingin",
+            "patterns": [
+                "Bagaimana cara mengobati radang dingin?",
+                "Apa yang harus dilakukan jika mengalami radang dingin?",
+                "Obat apa yang digunakan untuk radang dingin?",
+                "Perawatan radang dingin",
+                "Pengobatan radang dingin"
+            ],
+            "responses": [
+                "Segera pindah ke tempat yang hangat dan lepaskan semua pakaian yang basah. Hangatkan bagian yang terkena radang dingin menggunakan panas tubuh atau air hangat (bukan air panas). Jangan menggosok bagian yang terkena. Cari pertolongan medis jika radang dinginnya parah atau meliputi area yang luas."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Mimisan",
+            "patterns": [
+                "Bagaimana cara menghentikan mimisan?",
+                "Perawatan Mimisan",
+                "Apa yang harus dilakukan jika mimisan terjadi?",
+                "Bagaimana cara mengobati mimisan?",
+                "Mimisan"
+            ],
+            "responses": [
+                "Duduklah dan condongkan tubuh sedikit ke depan. Jepit bagian hidung yang lunak dengan ibu jari dan jari telunjuk, berikan tekanan yang kuat selama sekitar 10 menit. Bernapaslah melalui mulut dan jangan berbaring. Tempelkan kompres dingin pada pangkal hidung untuk membantu menyempitkan pembuluh darah. Cari pertolongan medis jika pendarahan tidak berhenti setelah 20 menit."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Reaksi Alergi",
+            "patterns": [
+                "Bagaimana cara mengobati reaksi alergi?",
+                "Perawatan reaksi alergi",
+                "Apa yang harus dilakukan jika terjadi reaksi alergi?",
+                "Obat apa yang harus diminum untuk reaksi alergi?",
+                "Reaksi alergi"
+            ],
+            "responses": [
+                "Minum antihistamin seperti diphenhydramine (Benadryl) untuk mengurangi gejala. Gunakan kompres dingin untuk menenangkan kulit. Jika Anda mengalami kesulitan bernapas, gunakan suntikan epinefrin jika diresepkan dan segera cari pertolongan medis darurat."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Hipotermia",
+            "patterns": [
+                "Bagaimana cara mengobati hipotermia?",
+                "Apa yang harus dilakukan jika seseorang mengalami hipotermia?",
+                "Perawatan hipotermia",
+                "Bagaimana cara mencegah hipotermia?",
+                "Pengobatan hipotermia"
+            ],
+            "responses": [
+                "Pindahkan korban ke lingkungan yang hangat. Lepaskan pakaian yang basah dan tutupi dengan selimut. Gunakan kompres hangat dan kering pada leher, dada, atau selangkangan. Hindari panas langsung seperti bantal pemanas atau air panas. Cari pertolongan medis jika kondisinya tidak membaik."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Keracunan Makanan",
+            "patterns": [
+                "Bagaimana cara mengobati keracunan makanan?",
+                "Apa yang harus dilakukan jika Anda keracunan makanan?",
+                "Perawatan keracunan makanan",
+                "Apa yang harus diminum jika terjadi keracunan makanan?",
+                "Gejala keracunan makanan"
+            ],
+            "responses": [
+                "Tetap terhidrasi dengan minum banyak cairan. Beristirahatlah sebanyak mungkin. Hindari makanan padat sampai muntah dan diare mereda. Mulailah dengan makanan hambar seperti roti panggang, nasi, atau pisang setelah gejala membaik. Cari pertolongan medis jika gejalanya parah atau terus-menerus."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Mata Gatal",
+            "patterns": [
+                "Bagaimana cara mengobati mata gatal?",
+                "Apa obat terbaik untuk mata gatal?",
+                "Mataku gatal",
+                "Bagaimana cara menyembuhkan mata gatal?",
+                "Mengapa mataku gatal?"
+            ],
+            "responses": [
+                "Cuci tangan sebelum menyentuh mata. Hindari menggosok mata untuk mencegah iritasi lebih lanjut. Gunakan kompres dingin pada mata yang gatal untuk mengurangi peradangan. Tetes mata antihistamin seperti ketotifen dapat membantu mengurangi rasa gatal. Jika alergi adalah penyebabnya, hindari alergen yang memicu gejala. Jika gejala berlanjut, konsultasikan dengan dokter mata."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Gatal",
+            "patterns": [
+                "Bagaimana cara mengobati gatal?",
+                "Obat apa yang paling ampuh untuk mengatasi gatal?",
+                "Gatal pada kulit",
+                "Bagaimana cara menyembuhkan kulit gatal?",
+                "Mengapa kulit saya gatal?",
+                "Mengapa saya merasa gatal?"
+            ],
+            "responses": [
+                "Bersihkan bagian yang gatal dengan sabun lembut dan air. Hindari menggaruk untuk mencegah iritasi lebih lanjut. Gunakan losion kalamin atau krim antihistamin untuk meredakan gatal. Kompres dingin pada bagian yang gatal dapat membantu mengurangi rasa tidak nyaman. Jika rasa gatal berlanjut atau disertai gejala lain, temui dokter."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Sakit Mata",
+            "patterns": [
+                "Bagaimana cara mengobati sakit mata?",
+                "Apa obat terbaik untuk sakit mata?",
+                "Mengapa mataku sakit?",
+                "Bagaimana cara menghilangkan sakit mata?",
+                "Mataku terasa sakit",
+                "Apa yang harus dilakukan jika mata terasa sakit?"
+            ],
+            "responses": [
+                "Istirahatkan mata Anda dan hindari terlalu lama menatap layar. Gunakan obat tetes mata untuk menjaga mata tetap lembap. Kompres hangat dapat membantu meredakan ketegangan mata. Jika mata terasa kering, gunakan air mata buatan. Konsultasikan dengan dokter mata jika rasa sakit tidak kunjung hilang atau disertai gejala lain seperti penglihatan kabur."
+            ],
+            "context_set": ""
+        }
+    ]
+}
