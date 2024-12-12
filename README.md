@@ -24,18 +24,32 @@ https://colab.research.google.com/drive/1-FE9cVuBtWb7Q2gunHZrdtUp431wow4m?usp=sh
 
 ---
 
-## **Cloud Computing**
+# Cloud Computing - Deploying in Cloud Run
 
-### **Deploy in Cloud Run**
-Open Cloud Console
-Open terminal
-Cd backend
-type in terminal "gcloud auth login"
-To set the default project for your Cloud Run service "gcloud config set project PROJECT_ID"
-Enable the Cloud Run Admin API and the Cloud Build API "gcloud services enable run.googleapis.com \
-    cloudbuild.googleapis.com"
-For Cloud Build to be able to build your sources, grant the Cloud Build Service Account role to the Compute Engine default service account by running the following:
-"gcloud projects add-iam-policy-binding PROJECT_ID \
-    --member=serviceAccount:PROJECT_NUMBER-compute@developer.gserviceaccount.com \
-    --role=roles/cloudbuild.builds.builder"
-Deploy the current folder using the following command "gcloud run deploy --source ."
+This guide provides a step-by-step process for deploying your application on **Google Cloud Run**.
+
+---
+
+## Prerequisites
+
+Make sure you have the following:
+1. **Google Cloud Account**: Ensure you have an active account.
+2. **gcloud CLI**: Install and configure the [gcloud CLI](https://cloud.google.com/sdk/docs/install).
+3. **Project Setup**: Note your:
+   - `PROJECT_ID`: The ID of your Google Cloud project.
+   - `PROJECT_NUMBER`: The project number.
+
+---
+
+## Deployment Steps
+
+### 1. Open Google Cloud Console
+Navigate to the [Google Cloud Console](https://console.cloud.google.com/).
+
+### 2. Open Terminal
+Access the terminal in the console or locally on your machine.
+
+### 3. Navigate to Your Backend Directory
+Run the following command:
+```bash
+cd backend
