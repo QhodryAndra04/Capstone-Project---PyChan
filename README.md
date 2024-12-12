@@ -1,4 +1,4 @@
-#   Relasia  #
+<h1 align="center"># Relasia</h1>
 
 This is a project to fulfill the **Bangkit Academy** led by Google, Tokopedia, Gojek, & Traveloka Program.
 
