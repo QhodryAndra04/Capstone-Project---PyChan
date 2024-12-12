@@ -53,5 +53,33 @@ Access the terminal in the console or locally on your machine.
 Run the following command:
 ```bash
 cd backend
+```
 
-### 4.
+### 4. Authenticate with Google Cloud
+Run the following command:
+```bash
+gcloud auth login
+```
+
+### 5.  Set the Default Project
+```bash
+gcloud config set project PROJECT_ID
+```
+
+### 6.  Enable Required APIs
+```bash
+gcloud services enable run.googleapis.com \
+    cloudbuild.googleapis.com
+```
+
+### 7. Grant Permissions for Cloud Build
+```bash
+gcloud projects add-iam-policy-binding PROJECT_ID \
+    --member=serviceAccount:PROJECT_NUMBER-compute@developer.gserviceaccount.com \
+    --role=roles/cloudbuild.builds.builder
+```
+
+### 8. Deploy the Application
+```bash
+gcloud run deploy --source .
+```
