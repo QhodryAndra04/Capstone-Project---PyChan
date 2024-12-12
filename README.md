@@ -175,5 +175,23 @@ async function addData(db) {
 ```
 
 ### 4. Mengelola Data Firestore via Google Cloud Console
---> Gunakan tab Firestore di Cloud Console untuk memantau koleksi, dokumen, dan penggunaan kuota.
+Gunakan tab Firestore di Cloud Console untuk memantau koleksi, dokumen, dan penggunaan kuota.
 
+### 5. Menambahkan Keamanan dengan Firestore Rules
+#### a. Buka tab Rules di Firestore Console
+#### b. Tambahkan aturan keamanan, misalnya :
+```bash
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /users/{userId} {
+      allow read, write: if request.auth != null;
+    }
+  }
+}
+```
+#### c. Simpan perubahan
+
+### 6.  Monitoring dan Optimasi
+#### a. Gunakan Cloud Monitoring untuk memantau performa Firestore
+#### b. Aktifkan logging untuk melacak kueri
