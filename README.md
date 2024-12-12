@@ -40,6 +40,19 @@
 * Gson
 * Glide
 
+## Package Structure
+---
+```bash
+.com.example.pychan
+├── api
+├── data
+├── retrofit
+├── ui
+│   ├── activity
+│   ├── adapter
+│   ├── fragment
+│   └── receiver
+```
 
 # Running Machine Learning (Preprocessing & Model)
 ---
