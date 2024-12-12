@@ -172,4 +172,8 @@ async function addData(db) {
     console.error("Error adding document: ", e);
   }
 }
+```
+
+### 4. Mengelola Data Firestore via Google Cloud Console
+--> Gunakan tab Firestore di Cloud Console untuk memantau koleksi, dokumen, dan penggunaan kuota.
 
