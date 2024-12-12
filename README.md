@@ -1,5 +1,8 @@
-# Capstone-Project---PyChan
-PhyChan : Consultation friend for your health problems  
+# PhyChan
+
+This is a project to fulfill the **Bangkit Academy** led by Google, Tokopedia, Gojek, & Traveloka Program.
+
+© C242 - PS211 Bangkit Capstone Team  
 
 ---
 ## Running Machine Learning(Preprocessing & Model)
