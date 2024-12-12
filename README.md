@@ -83,3 +83,93 @@ gcloud projects add-iam-policy-binding PROJECT_ID \
 ```bash
 gcloud run deploy --source .
 ```
+
+# Panduan Penggunaan Firestore di Google Cloud
+
+Firestore adalah layanan database NoSQL berbasis cloud yang mudah digunakan untuk membangun aplikasi yang scalable dan real-time. Berikut adalah langkah-langkah untuk memulai:
+
+---
+
+## 1. Persiapan Awal
+
+1. **Buat atau Masuk ke Akun Google Cloud**
+   - Akses [Google Cloud Console](https://console.cloud.google.com/).
+   - Login menggunakan akun Google Anda.
+
+2. **Buat Proyek Baru**
+   - Klik tombol **"Create Project"**.
+   - Isi nama proyek, pilih organisasi (opsional), lalu klik **"Create"**.
+
+3. **Aktifkan Firestore**
+   - Di Google Cloud Console, buka **Menu** → **Firestore**.
+   - Pilih opsi **"Create Database"**.
+
+---
+
+## 2. Konfigurasi Database Firestore
+
+1. **Pilih Mode Database**
+   - **Native Mode**: Untuk aplikasi baru dan lebih banyak fitur.
+   - **Datastore Mode**: Jika sudah menggunakan Google Datastore.
+   - Pilih mode sesuai kebutuhan Anda dan klik **"Next"**.
+
+2. **Atur Lokasi**
+   - Pilih lokasi geografis untuk menyimpan data.
+   - Klik **"Enable"** untuk mengaktifkan Firestore.
+
+---
+
+## 3. Mengintegrasikan Firestore ke Proyek Anda
+
+### a. **Menambahkan Firebase SDK**
+1. **Pilih SDK Sesuai Platform**
+   - Untuk **Node.js**, **Python**, **Java**, atau **Android**.
+
+2. **Instal Firebase SDK**
+   - Misalnya, untuk Node.js:
+     ```bash
+     npm install firebase
+     ```
+
+3. **Konfigurasikan Firebase**
+   - Unduh file konfigurasi dari Firebase Console.
+   - Gunakan kode berikut untuk inisialisasi:
+     ```javascript
+     const { initializeApp } = require("firebase/app");
+     const { getFirestore } = require("firebase/firestore");
+
+     const firebaseConfig = {
+       apiKey: "YOUR_API_KEY",
+       authDomain: "YOUR_AUTH_DOMAIN",
+       projectId: "YOUR_PROJECT_ID",
+       storageBucket: "YOUR_STORAGE_BUCKET",
+       messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
+       appId: "YOUR_APP_ID"
+     };
+
+     const app = initializeApp(firebaseConfig);
+     const db = getFirestore(app);
+     ```
+
+---
+
+### b. **Menulis dan Membaca Data**
+
+#### **Menambahkan Dokumen**
+Gunakan metode `add` atau `set`:
+```javascript
+const { collection, addDoc } = require("firebase/firestore");
+
+async function addData(db) {
+  try {
+    const docRef = await addDoc(collection(db, "users"), {
+      name: "John Doe",
+      email: "john@example.com",
+      age: 25
+    });
+    console.log("Document written with ID: ", docRef.id);
+  } catch (e) {
+    console.error("Error adding document: ", e);
+  }
+}
+
