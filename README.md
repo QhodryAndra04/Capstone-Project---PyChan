@@ -84,13 +84,13 @@ gcloud projects add-iam-policy-binding PROJECT_ID \
 gcloud run deploy --source .
 ```
 
-# Panduan Penggunaan Firestore di Google Cloud
+## Panduan Penggunaan Firestore di Google Cloud
 
 Firestore adalah layanan database NoSQL berbasis cloud yang mudah digunakan untuk membangun aplikasi yang scalable dan real-time. Berikut adalah langkah-langkah untuk memulai:
 
 ---
 
-## 1. Persiapan Awal
+### 1. Persiapan Awal
 
 1. **Buat atau Masuk ke Akun Google Cloud**
    - Akses [Google Cloud Console](https://console.cloud.google.com/).
@@ -106,7 +106,7 @@ Firestore adalah layanan database NoSQL berbasis cloud yang mudah digunakan untu
 
 ---
 
-## 2. Konfigurasi Database Firestore
+### 2. Konfigurasi Database Firestore
 
 1. **Pilih Mode Database**
    - **Native Mode**: Untuk aplikasi baru dan lebih banyak fitur.
@@ -119,9 +119,9 @@ Firestore adalah layanan database NoSQL berbasis cloud yang mudah digunakan untu
 
 ---
 
-## 3. Mengintegrasikan Firestore ke Proyek Anda
+### 3. Mengintegrasikan Firestore ke Proyek Anda
 
-### a. **Menambahkan Firebase SDK**
+#### a. **Menambahkan Firebase SDK**
 1. **Pilih SDK Sesuai Platform**
    - Untuk **Node.js**, **Python**, **Java**, atau **Android**.
 
@@ -153,9 +153,9 @@ Firestore adalah layanan database NoSQL berbasis cloud yang mudah digunakan untu
 
 ---
 
-### b. **Menulis dan Membaca Data**
+#### b. **Menulis dan Membaca Data**
 
-#### **Menambahkan Dokumen**
+##### **Menambahkan Dokumen**
 Gunakan metode `add` atau `set`:
 ```javascript
 const { collection, addDoc } = require("firebase/firestore");
