@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Input Umur -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Umur"
+            android:textSize="16sp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="4dp" />
+
+        <EditText
+            android:id="@+id/input_umur"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukkan umur"
+            android:inputType="number"
+            android:padding="10dp"
+            android:background="@drawable/edit_text_border" />
+
+        <!-- Input Berat Badan -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Berat Badan (kg)"
+            android:textSize="16sp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="4dp" />
+
+        <EditText
+            android:id="@+id/input_bb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text_border"
+            android:hint="Masukkan berat badan"
+            android:inputType="numberDecimal"
+            android:minHeight="48dp"
+            android:padding="10dp" />
+
+        <!-- Kebiasaan CheckBox -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kebiasaan"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="sans-serif-medium" />
+
+        <CheckBox
+            android:id="@+id/checkbox_rokok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Merokok" />
+
+        <CheckBox
+            android:id="@+id/checkbox_pola_makan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pola makan tidak teratur" />
+
+        <!-- (CheckBoxes lainnya di sini) -->
+        <CheckBox
+            android:id="@+id/checkbox_makan_pedas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sering makan pedas" />
+
+        <CheckBox
+            android:id="@+id/checkbox_minum_soda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sering minum soda" />
+
+        <CheckBox
+            android:id="@+id/checkbox_tidur_makan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tidur setelah makan" />
+
+        <CheckBox
+            android:id="@+id/checkbox_olahraga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jarang olahraga" />
+
+        <CheckBox
+            android:id="@+id/checkbox_stres"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sering stres" />
+
+        <CheckBox
+            android:id="@+id/checkbox_obat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sering mengonsumsi obat" />
+
+        <CheckBox
+            android:id="@+id/checkbox_makan_lemak"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sering Makan Berlemak" />
+
+        <CheckBox
+            android:id="@+id/checkbox_minum_kopi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sering meminum kopi" />
+
+        <CheckBox
+            android:id="@+id/checkbox_minum_alkohol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sering meminum alkohol" />
+
+        <!-- Gejala CheckBox -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gejala"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="sans-serif-medium" />
+
+        <CheckBox
+            android:id="@+id/checkbox_mual"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mual" />
+
+        <CheckBox
+            android:id="@+id/checkbox_perut_kembung"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Perut kembung" />
+
+        <CheckBox
+            android:id="@+id/checkbox_sakit_tenggorokan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sakit tenggorokan" />
+
+        <CheckBox
+            android:id="@+id/checkbox_kesulitan_menelan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kesulitan menelan" />
+
+        <CheckBox
+            android:id="@+id/checkbox_tidak_ada"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tidak Ada" />
+
+        <CheckBox
+            android:id="@+id/checkbox_sendawa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sendawa berlebihan" />
+
+        <CheckBox
+            android:id="@+id/checkbox_panas_dada"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Panas pada dada" />
+
+        <CheckBox
+            android:id="@+id/checkbox_nyeri_perut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nyeri perut" />
+
+        <!-- Submit Button -->
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:textAllCaps="false"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="@color/green"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/tvPredictionResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hasil Prediksi akan muncul di sini" />
+
+
+        <!-- Button Lanjut Masuk Ke Aplikasi -->
+        <Button
+            android:id="@+id/btn_lanjut_masuk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lanjut Masuk Ke Aplikasi"
+            android:textAllCaps="false"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="@color/green"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+</ScrollView>

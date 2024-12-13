@@ -1,0 +1,45 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <!-- LinearLayout di dalam ScrollView -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Judul -->
+        <TextView
+            android:id="@+id/tv_title_dashboard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/inter_semibold"
+            android:paddingBottom="30dp"
+            android:text="Apa itu penyakit Asam Lambung?"
+            android:textColor="#000000"
+            android:textSize="24sp" />
+
+        <!-- Gambar -->
+        <ImageView
+            android:id="@+id/iv_image_dashboard"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/card_background"
+            android:scaleType="centerCrop"
+            android:src="@drawable/asam_lambung" />
+
+        <!-- Deskripsi -->
+        <TextView
+            android:id="@+id/tv_description_dashboard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/inter_medium"
+            android:lineSpacingExtra="4dp"
+            android:text="Penyakit asam lambung, atau dalam istilah medis dikenal sebagai Gastroesophageal Reflux Disease (GERD), adalah suatu kondisi di mana asam lambung naik ke kerongkongan (esofagus), saluran yang menghubungkan mulut dan lambung, sehingga menyebabkan iritasi. \n        Penyakit ini dapat menyerang siapa saja, tanpa memandang usia maupun jenis kelamin, dan biasanya ditandai dengan gejala utama berupa rasa terbakar di dada (heartburn), terutama setelah makan atau ketika berbaring. Kondisi ini terjadi karena melemahnya otot kerongkongan bagian bawah (otot LES), yang seharusnya menutup setelah makanan masuk ke lambung. Jika otot ini melemah, kerongkongan akan tetap terbuka, sehingga asam lambung dapat naik ke kerongkongan. \n        GERD yang tidak ditangani dengan baik dapat menyebabkan komplikasi serius, seperti peradangan pada esofagus (esofagitis), luka pada jaringan kerongkongan yang membuat sulit menelan, dan kondisi yang lebih serius seperti Barrett's esophagus, yang berisiko meningkatkan peluang terjadinya kanker esofagus"
+            android:textColor="#333333"
+            android:textSize="14sp" />
+    </LinearLayout>
+</ScrollView>

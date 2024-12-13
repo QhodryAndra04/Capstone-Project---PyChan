@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/nav_dashboard"
+        android:icon="@drawable/ic_dashboard"
+        android:title="@string/dashboard"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/nav_lambung_sehat"
+        android:icon="@drawable/polahidupsehat"
+        android:title="@string/lambung_sehat"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/nav_consultation"
+        android:icon="@drawable/chatbox"
+        android:title="@string/consultation"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/nav_alarm"
+        android:icon="@drawable/ic_alarm"
+        android:title="@string/alarm"
+        app:showAsAction="ifRoom" />
+
+</menu>

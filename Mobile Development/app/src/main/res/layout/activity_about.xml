@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- ImageView for the project logo or related image -->
+    <ImageView
+        android:id="@+id/imageViewAbout"
+        android:layout_width="282dp"
+        android:layout_height="104dp"
+        android:layout_marginBottom="20dp"
+        android:contentDescription="@string/description_about_image"
+        android:src="@drawable/logo_bangkit" />
+
+    <!-- TextView for the project description -->
+    <TextView
+        android:id="@+id/textViewAboutDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/inter_medium"
+        android:lineSpacingExtra="4dp"
+        android:text="This Capstone Project at Bangkit Academy focuses on developing a healthcare chatbot designed to provide basic health consultations, answer common health-related queries, and offer early prevention guidance. The chatbot aims to improve accessibility to healthcare information and promote proactive health management."
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+</LinearLayout>

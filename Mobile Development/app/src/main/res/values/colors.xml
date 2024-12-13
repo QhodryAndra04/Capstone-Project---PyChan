@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gray">#CCCCCC</color>
+    <color name="green">#4CAF50</color>
+    <color name="dark_green">#078E0A</color>
+    <color name="dark_green_variant">#0B700E</color>
+    <color name="light_gray">#D3D3D3</color>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="red">#EC0E0E</color>
+    <color name="onPrimary">#FFFFFF</color>
+    <color name="light_primary">#6200EE</color>
+    <color name="light_primary_variant">#3700B3</color>
+    <color name="light_on_primary">#FFFFFF</color>
+    <color name="light_background">#FFFFFF</color>
+    <color name="light_text">#000000</color>
+    <color name="dark_primary">#BB86FC</color>
+    <color name="dark_primary_variant">#3700B3</color>
+    <color name="dark_on_primary">#000000</color>
+    <color name="dark_background">#121212</color>
+    <color name="dark_text">#FFFFFF</color>
+    <color name="text_color_light">#000000</color>
+    <!-- Light Mode Background Color -->
+    <color name="background_color_light">#FFFFFF</color>
+    <color name="text_color_night">#FFFFFF</color>
+    <!-- Night Mode Background Color -->
+    <color name="background_color_night">#121212</color>
+    <color name="textColorPrimary">#000000</color>
+    <color name="backgroundColor">#FFFFFF</color>
+    <color name="textColorPrimaryDark">#FFFFFF</color>
+    <color name="backgroundColorDark">#000000</color>
+</resources>

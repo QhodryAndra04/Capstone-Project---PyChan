@@ -1,0 +1,46 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Gambar dengan ukuran seukuran CardView -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/card_background">  <!-- Memberikan efek seperti CardView -->
+
+            <!-- Gambar dalam mode landscape (horizontal) -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="Deskripsi Gambar"
+                android:scaleType="centerCrop"
+                android:src="@drawable/sakitperut" />  <!-- Ganti dengan gambar Anda -->
+
+        </FrameLayout>
+
+        <!-- Teks hasil prediksi -->
+        <TextView
+            android:id="@+id/tv_prediction_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="Hasil Prediksi: "
+            android:textSize="16sp" />
+
+        <!-- Teks gaya hidup -->
+        <TextView
+            android:id="@+id/tv_lifestyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gaya Hidup: "
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</ScrollView>

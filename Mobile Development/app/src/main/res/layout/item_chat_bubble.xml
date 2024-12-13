@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <!-- Bubble untuk pengirim -->
+    <LinearLayout
+        android:id="@+id/senderBubble"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/bg_bubble_sender"
+        android:padding="12dp">
+
+        <TextView
+            android:id="@+id/tvSenderMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/inter_medium"
+            android:maxWidth="300dp"
+            android:text="Siapa Kamu?"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <!-- Bubble untuk penerima -->
+    <LinearLayout
+        android:id="@+id/receiverBubble"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/bg_bubble_receiver"
+        android:padding="12dp">
+
+        <TextView
+            android:id="@+id/tvReceiverMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/inter_medium"
+            android:maxWidth="300dp"
+            android:text="Saya Phychan. Saya dilatih dengan sejumlah besar data yang tersedia umum, dan saya bisa berkomunikasi serta membuat teks dengan bahasa yang alami untuk menanggapi pertanyaan berkaitan dengan penyakit asam lambung."
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</LinearLayout>
